@@ -1,0 +1,110 @@
+\documentclass{article}
+
+% math
+\usepackage{amsmath}
+\usepackage{amssymb}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+
+% for double images
+\usepackage{subcaption}
+
+% Used for img import
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Calculus and Optimization for Machine Learning}
+\date{2021-07-27}
+\author{Seara}
+\pagenumbering{gobble}
+
+\begin{document}
+\maketitle
+\newpage
+\pagenumbering{arabic}
+
+\section{Week 1}
+
+\subsection{Numerical sets and mappings}
+
+\paragraph{Set.}
+A {\it set} (is commonly called non-definable and fundamental) is an entity, a {\it collection} of some objects:
+\begin{itemize}
+    \item An object either belongs to the set or do not
+    \item One object could be included in the set only one time
+    \item There is {\it no order} (even if it is trivial) on objects of the set
+\end{itemize}
+Sets are usually denoted by capital letters: $X, Y, A, B, R, ...$ The fact of belonging to the set is denoted as: $a \in A$.
+\\
+Another essential concept concerning sets is subsets. Basically, the subset is any set of (not necessarily all) elements of the given set. We consider primarily numerical sets:
+\begin{itemize}
+    \item Natural numbers $\N= \{1, 2, 3, 4, ...\}$
+    \item Integer numbers $\Z = \{0, 1, -1, 2, -2, ...\}$
+    \item Rational numbers $\Q = \{\frac{m}{n} | m \in Z, n \in N\}$
+    \item Real numbers $\R=\{a_0, a_1, ...\}$
+\end{itemize}
+
+\paragraph{Mapping.}
+Assume that we have two sets $X$ and $Y$. A mapping between them is, generally speaking, ordered realtion between elements of $X$ and $Y$. Consider two logic notations: quantifiers "for all" $\forall$ and "exists" $\exists$.
+
+\paragraph{Axiomatic definition of real numbers.}
+\begin{itemize}
+    \item $x+y=y+x, y \cdot x = x \cdot y$ - the commutative rule
+    \item $(x+y)+z = x + (y+z), (x \cdot y) \cdot z = x \cdot (x \cdot z)$ - associativity
+    \item $(x+y) \cdot z = x \cdot z + y \cdot z$ - distributivity
+    \item Existence of two neutral elements 1 and 0: $a \cdot 1 = a, a+0=a$
+    \item Existence of the inverse elements (exept 0): $a + (-a)=0,a \cdot a^{-1}=1$
+    \item Non-triviality $0 \neq 1$
+    \item For any two real numbers one is able to say $a>b,a<b$ or $a=b$
+    \item This order is transitive: if $a<b,b<c$, then $a<c$
+    \item Completeness: Assume the we consider some section of our set into two non-intersecting sets: $ \R = A \cup B, A \cap B = \O$, such as any element $a \in A$ is smaller than any element $b \in B$. Then there is a pivot real number $c \in \R$ that $a \leq c \leq b$ for any $a$ and $b$ elements from the corresponding sets.
+\end{itemize}
+
+\paragraph{Functions.}
+Consider two sets $X$ and $Y$ and mapping $f: X \mapsto Y$. This mapping (relation) called {\it functional} (or a {\it function}) if and only it associates each element of the 
+$X$ set to exactly on element of the $Y$ set. $X$ set is called domain (set of arguments) and $Y$ set is called codomain (set of values).
+\\
+Function graph is a cetrain curve on the plane: the set of all points $(x,f(x))$ for all $x$ belonging to the function's domain.
+\\
+Domain - $D(f)$
+\\
+Codomain - $E(f)$
+\\
+Support - $supp(f) = \{x \in X : f(x) \neq 0\}$
+\\
+Composite function or composition - $g(f(x))$
+\\
+Vertical shift - $y = f(x) + c$
+\\
+Horizontal shift - $y=f(x+C)$
+\\
+Vertical contraction - $y=C \cdot f(x)$
+\\
+Horizontal contraction - $y=f(C \cdot x)$
+\\
+Absolute value - $y=|f(x)|$
+
+\subsection{Limits, sequences}
+
+\paragraph{Limit.}
+Limit of the sequence - the real number that resembles our sequence the most as the element's number infinitely grows(approaches infinity). The notation: 
+\[
+\lim_{n \to \infty} a_n = C
+\]
+$\forall \varepsilon > 0: \exists N \in \N \; that \; \forall n \in \N, n \geq N \Rightarrow |a_n -C| < \varepsilon$
+\\
+If a sequence has the limit equal to 0, it is called {\it infinitesimal}.
+Привет
+\end{document} 

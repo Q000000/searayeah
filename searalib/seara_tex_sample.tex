@@ -1,0 +1,46 @@
+\documentclass{article}
+
+% math
+\usepackage{amsmath}
+\usepackage{amssymb}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\E}{\mathbb{E}}
+
+% Russian
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+% for double images
+\usepackage{subcaption}
+
+% Used for img import
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Сбор и анализ данных в Python}
+\date{2021}
+\author{Seara}
+\pagenumbering{gobble}
+
+\begin{document}
+\maketitle
+\newpage
+\pagenumbering{arabic}
+
+\section{Week 1}
+
+\subsection{Основные понятия теории вероятностей}
+\end{document}
