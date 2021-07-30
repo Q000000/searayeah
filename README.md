@@ -1,3 +1,3 @@
 # searayeah
 ## Sublime setup
-[sublime.md](https://github.com/searayeah/searayeah/blob/main/sublime_setup/sublime.md)
+[sublime.md](https://github.com/searayeah/searayeah/blob/main/Sublime%20setup/sublime.md)
