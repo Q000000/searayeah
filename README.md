@@ -1,3 +1,2 @@
 # searayeah
-## Sublime setup
-[Sublime](https://github.com/searayeah/searayeah/tree/main/Sublime%20setup)
+## [Sublime setup](https://github.com/searayeah/searayeah/tree/main/Sublime%20setup)

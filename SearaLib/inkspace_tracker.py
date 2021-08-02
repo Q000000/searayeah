@@ -6,7 +6,7 @@ from shutil import copy
 TEMPLATE = "template.svg"
 FIGURES_PATH = (
     os.path.dirname(os.getcwd())
-    + "/ml/data_collection_and_analysis_in_python/figures/"
+    + "/Useful_notes/source/seara_probability_theory/figures/"
 )
 
 
