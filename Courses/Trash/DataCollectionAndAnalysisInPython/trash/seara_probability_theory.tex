@@ -1,0 +1,144 @@
+\documentclass{article}
+\usepackage[paper=a4paper, top=20mm, bottom=15mm,left=20mm,right=15mm]{geometry}
+
+% math
+\usepackage{amsmath}
+\usepackage{amssymb}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\PP}{\mathbb{P}}
+
+% Russian
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+% for double images
+\usepackage{subcaption}
+
+% Used for img import
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\title{Теория вероятностей}
+\date{2021}
+\author{Seara}
+\pagenumbering{gobble}
+
+\begin{document}
+\maketitle
+\newpage
+\pagenumbering{arabic}
+
+\section{Вероятность}
+
+\subsection{Пространство элементарных событий}
+$\Omega$ - {\bf пространство элементарных событий} (множество всевозможных исходов эксперимента). {\bf Случайное событие} - любое подмножество множества $\Omega$
+
+\subsection{Классическое определение вероятности}
+Если исходы опыта равновозможны, то вероятностью события $A$ называется отношение числа исходов, благоприятствующих данному событию, к числу всех возможных исходов опыта:
+\[
+\PP(A) = \frac{m}{n}
+\]
+
+\subsection{Условная вероятность случайного события}
+Условной вероятностью события $A$ при условии, что произошло событие $B$, называется число:
+\[
+\PP(A \mid B) = \frac{\PP(A \cap B)}{\PP(B)}.
+\]
+Из формулы условной вероятности можно получить формулу для вероятности произведения нескольких событий: 
+\[
+\PP(A \cap B) = \PP(A \mid B) \cdot \PP(B).
+\]
+Если событий несколько, формулу можно продолжить:
+\[
+\PP(A \cap B \cap C) = \PP(A \mid B, C) \cdot \PP(B \mid C) \cdot \PP(C).
+\]
+
+\subsection{Независимость событий}
+Говорят, что два события попарно {\bf независимы}, если верно следующее:
+\[
+\PP(A \cap B) = \PP(A) \cdot \PP(B)
+\]
+Говорят, что $n$ случайных событий {\bf независимы в совокупности}, если для любого $1 \leq k \leq n$ и любого набора различных меж собой индексов $1 \leq i_1, ..., i_k \leq n$ имеет место равенство:
+\[
+\PP(A_{i_1} \cap ... \cap A_{i_k}) = \PP(A_{i_1}) \cdot ... \cdot \PP(A_{i_k})
+\]
+
+\subsection{Формула полной вероятности}
+Пусть событие $A$ происходит вместе с одним из событий $H_1, H_2, \ldots, H_k.$ Пусть эти события попарно несовместны (ещё говорят, что они составляют  {\bf полную группу)}. Нам известны вероятности этих событий $\PP(H_1), \PP(H_2), \ldots, \PP(H_k)$, а также условные вероятности события $A$:  $\PP(A \mid H_1), \PP(A \mid H_2), \ldots, \PP(A \mid H_k)$. Тогда вероятность события $A$ может быть вычислена по формуле:
+\[
+\PP(A) = \sum_{i=1}^{k} \PP(H_i) \cdot \PP(A \mid H_i).
+\]
+
+\subsection{Формула Байеса}
+Пусть событие $A$ происходит вместе с одним из событий $H_1, H_2, \ldots, H_k,$ которые составляют полную группу и попарно несовместны. Пусть известно, что в результате испытания событие $A$ произошло. Тогда условная вероятность того, что имело место событие $H_k$, можно пересчитать по формуле:
+\[
+\PP(H_k \mid A) = \dfrac{\PP(H_k \cap A)}{P(A)} = \dfrac{\PP(H_k) \cdot \PP(A \mid H_k)}{\sum_{i=1}^{k} \PP(H_i) \cdot \PP(A \mid H_i)}
+\]
+
+\section{Случайная величина и её распределение}
+
+\subsection{Типы случайных величин}
+Случайные величины бывают:
+\begin{itemize}
+  \item Дискретные(Множество значений конечно или счетно), описывается таблицей распределения
+  \item Непрерывные(Принимают бесконечное, континуальное число значений)
+\end{itemize}
+
+\subsection{Функция распределения случайной величины}
+{\bf Функцией распределения} случайной величины $X$ называется функция $F(x),$ определённая для любого действительного числа $x \in \R$ и выражающая собой  вероятность того, что случайная величина $X$ примет значение, лежащее на числовой прямой левее точки $x$, то есть:
+\[
+F(x) = \PP(X \leq  x).
+\]
+\begin{itemize}
+  \item Для дискретной:
+  \[
+    F(X) = \mathbb{P}(X \leq x) = \sum \mathbb{P}(X=k)\cdot [X \leq x]
+  \]
+  \[
+  [X \leq x] = 
+    \begin{cases}
+       1 & [X \leq x] \\
+       0 & otherwise
+    \end{cases}
+  \]
+  \item Для непрерывной
+
+\end{itemize}
+\begin{figure}[h!]
+  \centering
+  \incfig{raspver}
+\end{figure}
+Любая функция распределения обладает следующими свойствами:
+\begin{itemize}
+  \item Принимает значения в диапазоне от $0$ до $1$, при этом:  
+  \[
+  \lim_{x \to +\infty} F(x)=1 \qquad \lim_{x \to -\infty} F(x) = 0
+  \]
+  \item $F(x)$ не убывает: $F(x_1) \leq F(x_2) \quad \forall x_1 \leq x_2$
+  \item $F(x)$ непрерывна справа: $\lim\limits_{x \to x_0^+} F(x) = F(x_0)$
+\end{itemize}
+
+
+% \paragraph{Непрерывные случайные величины.} Распределение непрерывной случайной величины описывается плотностью распределения вероятнойтей.
+
+% \paragraph{Важные свойства.}
+% \begin{itemize}
+%   \item Плотность определениа только для непрерывных случайных величин
+%   \item
+% \end{itemize}
+\end{document}
+ 
