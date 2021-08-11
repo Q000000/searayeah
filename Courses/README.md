@@ -1,36 +1,22 @@
-# Courses
-## 1. HSE Python Course Speedrun
-Course link: https://www.coursera.org/learn/python-osnovy-programmirovaniya
+# Courses Roadmap
+## Good
+- Искусство разработки на современном C++
+	- [7/9/2020](https://coursera.org/share/83f20585a22a7ff24777ca78815e5953) [Белый пояс](https://www.coursera.org/learn/c-plus-plus-white)
+	- [TO-DO]() [Желтый пояс](https://www.coursera.org/learn/c-plus-plus-yellow)
+	- [TO-DO]() [Красный пояс](https://www.coursera.org/learn/c-plus-plus-red)
+	- [TO-DO]() [Коричневый пояс](https://www.coursera.org/learn/c-plus-plus-brown)
+	- [TO-DO]() [Черный пояс](https://www.coursera.org/learn/c-plus-plus-black)
+- [9/17/2020](https://coursera.org/share/e3e01b3ae23bc6777b3d56ca38a2d70b) [Основы программирования на Python](https://www.coursera.org/learn/python-osnovy-programmirovaniya)
 
-### Timings
-```
-Start: 2020-09-11 18:26:59
-Day 1: 2020-09-11 18:26:59 - 2020-09-11 23:28:55
-Day 2: 2020-09-13 11:38:36 - 2020-09-13 15:56:00
-Day 3: 2020-09-16 11:43:45 - 2020-09-16 14:40:00, 2020-09-16 18:09:34 - 2020-09-16 22:00:00
-Day 4: 2020-09-17 12:30:27 - 2020-09-17 17:38:23
-End: 2020-09-17 17:38:23
-```
+- Машинное обучение: от статистики до нейросетей
+	- [7/27/2021](https://coursera.org/share/908efb7fa11b86696e4a7f02f79356eb) [Основы машинного обучения](https://www.coursera.org/learn/python-osnovy-programmirovaniya)
+	- [TO-DO]() [Продвинутые методы машинного обучения](https://www.coursera.org/learn/advanced-machine-learning-methods)
+	- [8/10/2021](https://coursera.org/share/b456e678b68f052e3ada0c8f3810618c) [Сбор и анализ данных в Python](https://www.coursera.org/learn/data-collection-and-analysis-in-python)
+	- [TO-DO]() [Математическая статистика и А/В тестирование](https://www.coursera.org/learn/mathematical-statistics-and-ab-testing)
+	- [TO-DO]() [Статистические методы анализа данных](https://www.coursera.org/learn/data-analysis-statistical-methods)
 
-### Total per days
-```
-Day 1: 5:01:56
-Day 2: 4:17:24
-Day 3: 6:46:41
-Day 4: 5:07:56
-```
+## Trash
+- [12/6/2019](https://coursera.org/share/e3e01b3ae23bc6777b3d56ca38a2d70b) [Алгоритмизация вычислений (Algorithmic computation)](https://www.coursera.org/learn/algoritmizacija-vychislenij)
+- [8/21/2021](https://coursera.org/share/1ac092db1c5a7e3575909325471e9611) [Discrete Math and Analyzing Social Graphs](https://www.coursera.org/learn/discrete-math-and-analyzing-social-graphs)
 
-### Total: 21:13:57
-
-## 2. Belts c++
-Course link: https://www.coursera.org/specializations/c-plus-plus-modern-development
-
-A hard course to become GOD in C++.
-
-Consists of 5 parts(white, yellow, red, brown, black) 4-5 weeks each.
-## 3. Hyperskill
-Course link: https://hyperskill.org/
-
-Good platform with good courses for different spheres of development
-
-Incudes Python, Java, Kotlin, Web development
+## Other
