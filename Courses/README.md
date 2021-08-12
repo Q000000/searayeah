@@ -11,7 +11,7 @@
 
 - Машинное обучение: от статистики до нейросетей
 	- [7/23/2021](https://coursera.org/share/908efb7fa11b86696e4a7f02f79356eb) [Основы машинного обучения](https://www.coursera.org/learn/machine-learning-foundations)
-	- TO-DO [Продвинутые методы машинного обучения](https://www.coursera.org/learn/advanced-machine-learning-methods)
+	- CANT BE COMPLETED(BUG) [Продвинутые методы машинного обучения](https://www.coursera.org/learn/advanced-machine-learning-methods)
 	- [8/10/2021](https://coursera.org/share/b456e678b68f052e3ada0c8f3810618c) [Сбор и анализ данных в Python](https://www.coursera.org/learn/data-collection-and-analysis-in-python)
 	- TO-DO [Математическая статистика и А/В тестирование](https://www.coursera.org/learn/mathematical-statistics-and-ab-testing)
 	- TO-DO [Статистические методы анализа данных](https://www.coursera.org/learn/data-analysis-statistical-methods)
