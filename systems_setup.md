@@ -39,6 +39,7 @@ Gnome boxes
 Telegram
 Vk messsenger
 OBS
+papirus-icon-theme
 ```
 * Set up dolphin
 * Set up konsole
