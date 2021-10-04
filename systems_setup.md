@@ -44,9 +44,11 @@ OBS
 * Set up konsole
 * Set up Spectacle
 * Configure autostart
+![image](https://user-images.githubusercontent.com/57370975/135800713-0e81e4ec-d422-4f4f-83ef-895567dc62a6.png)
+
 
 Result
-![Screenshot_20211003_140535](https://user-images.githubusercontent.com/57370975/135750919-6a2b9bf1-d6ce-467f-ae62-074f62cc66b2.png)
+![Screenshot_20211004_085237](https://user-images.githubusercontent.com/57370975/135800670-35721881-094f-42e0-9e59-e4001f336ea1.png)
 
 # Windows install process.
 * Turn on all the shit in
