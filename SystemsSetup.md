@@ -63,6 +63,7 @@ Result
 * Activate system
 * Install vs distributives
 * Set up settings
+* Ctrl-Shift change lang
 * Swap file
 * Disable System protection
 * Disable restore points
