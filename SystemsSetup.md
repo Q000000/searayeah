@@ -52,15 +52,15 @@ Result
 ![Screenshot_20211004_085237](https://user-images.githubusercontent.com/57370975/135800670-35721881-094f-42e0-9e59-e4001f336ea1.png)
 
 # Windows install process.
-* Turn on all the shit in
+* Turn on all the shit in install process
 * After first launch wait for all the drivers to be installed
 * Update system
 * TEMP path variable
+* Disable File indexing(close all the programs)
 * Install browser
 * Install win-rar
 * Turn off defender in settings
 * Activate system
-* Turn off defented in tweaker
 * Install vs distributives
 * Set up settings
 * Swap file
@@ -68,16 +68,17 @@ Result
 * Disable restore points
 * Disable remote access
 * Ultimate powerplan
+* Turn off fast startup
 * Cursors
 * Set up task bar
-* Turn off brandmauer
-* Sound and mirco
+* Turn off Firewall and set up Defender
+* Enable hidden files and extensions
+* Sound and mircophone settings
 * Disable User account control
-* Disable File indexing
 * Setup Nvidia driver
 * Hw monitor in autostart
 * Install software
 
 Result
 ![VTzPaHfbVtI](https://user-images.githubusercontent.com/57370975/135751155-bf95e04f-637d-40fe-a248-79d489cdbfc6.jpg)
-
+![image](https://user-images.githubusercontent.com/57370975/136049861-8ec30fbd-45f6-4462-bea4-f5c4905ad079.png)
