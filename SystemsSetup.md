@@ -24,7 +24,11 @@ keep above others window
 * Configure spectacle
 * Set up programs and configure them
 ```shell
+onlyoffice
+arc-kde-git
+papirus-icon-theme
 Inkscape
+Discord
 Jetbrains Toolbox
 Kolorpaint
 Teamviewer
@@ -39,11 +43,7 @@ Gnome boxes
 Telegram
 Vk messsenger
 OBS
-papirus-icon-theme
 ```
-* Set up dolphin
-* Set up konsole
-* Set up Spectacle
 * Configure autostart
 ![image](https://user-images.githubusercontent.com/57370975/135800713-0e81e4ec-d422-4f4f-83ef-895567dc62a6.png)
 
