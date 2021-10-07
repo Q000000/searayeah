@@ -10,6 +10,12 @@
   ```
 * Enable [Swapfile](https://wiki.manjaro.org/index.php?title=Swap)
 * Do not forget these Settings:
+  * Time
+  * Screen edges
+  * Startup and shutdown
+  * Input devices
+  * Display and monitor
+  * Notifications 3 sec
   * Inteface scale 125%
   * Auto mount all the drives
   * Left Ctrl-Left shift lang change
