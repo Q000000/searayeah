@@ -6,9 +6,9 @@
 * Disable File indexing(close all the programs before that)
 * Enable names and extensions in Explorer
 * Delete not used temp folders' contents
+* Turn off defender in settings
 * Install browser
 * Install [Win-rar](https://www.rarlab.com/)
-* Turn off defender in settings
 * [Activate system](https://github.com/massgravel/Microsoft-Activation-Scripts)
 * Install [MS C++ distributives](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 * Do not forget these Settings:
@@ -17,7 +17,7 @@
   * Turn off focus assist for all apps and times
   * Ultimate powerplan
     ```bash
-    powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61 
+    powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
     ```
   * Turn off fast startup
   * Don't enable storage sense(it's better to manually enable it once a month)
@@ -30,12 +30,12 @@
   * Turn off all typechecking stuff and enable Ctrl-Shift lang change
   * Turn off autoplay(take no action)
   * Turn off all USB notifications
-  * Turn off Wifi and Hotstop 2.0
+  * Turn off Wifi and Hotspot 2.0
   * Turn off all VPN shit
   * Turn on Airplane mode
   * Turn off remote turning on mobile hotspot
   * Proxy disable automatic setting detection
-  * Peresonalization solid black color background
+  * Personalization solid black color background
   * Turn off transparency
   * Enable Dark theme
   * In themes set up desktop icons
@@ -48,12 +48,13 @@
   * Turn off gamebar in gaming
   * Turn off broadcasting and captures as much as possible
   * In display turn off windows animations and turn desktop background image
-  * Turn off type feedback
+  * Turn off touch feedback
   * Don't allow narrator to start by keybind
   * Turn off sticky keys on keyboard
   * Turn off everything in privacy
   * Feedback frequency - never
   * Turn off delivary optimization
+  * Turn off domain, private, public firewall
   * Turn of defender notifications
   * Turn off safe search
   * Set up task bar
@@ -63,6 +64,7 @@
   * Turn off remote assistance connections
   * Turn off firewall
   * Change user account control settings
+  * Set up security and maintainance
 * Setup [Nvidia driver](https://www.nvidia.com/Download/index.aspx) and configure it
 * Add [Hw monitor](https://www.cpuid.com/softwares/hwmonitor.html) in autostart
   ```bash
