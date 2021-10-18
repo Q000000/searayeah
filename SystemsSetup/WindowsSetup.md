@@ -65,6 +65,10 @@
   * Turn off firewall
   * Change user account control settings
   * Set up security and maintainance
+  * Turn of shit notifications
+    ```bash
+    Group Policy -> Computer Configuration -> Administrative Templates -> Windows Components -> Windows Security -> Notifications -> Hide all notifications
+    ```
 * Setup [Nvidia driver](https://www.nvidia.com/Download/index.aspx) and configure it
 * Add [Hw monitor](https://www.cpuid.com/softwares/hwmonitor.html) in autostart
   ```bash
