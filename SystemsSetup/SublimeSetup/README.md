@@ -3,6 +3,7 @@
 * **SideBar** - default settings
 * **Anaconda** -
     ```bash
+    {
     "pep8_ignore":
     [
         "E309",
@@ -10,6 +11,7 @@
     ],
     // Maximum line length for pep8
     "pep8_max_line_length": 110,
+    }
     ```
 * **LatexTools** - 
     ```bash
