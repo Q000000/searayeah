@@ -1,4 +1,6 @@
 # Linux install process.
+* English language and locale
+* Install alongside
 * Change store region mirrors to Russia.
 * Update Kernel
 * Update Nvidia drivers
@@ -33,10 +35,10 @@
   * Inkscape
   * Discord
   * Jetbrains Toolbox
-  * Kolorpaint
+  * Kolourpaint
   * Teamviewer
   * Zoom
-  * [Sublime Text](https://github.com/searayeah/searayeah/tree/main/SublimeSetup)
+  * [Sublime Text](https://github.com/searayeah/searayeah/tree/main/SystemsSetup/SublimeSetup)
   * Firefox
   * Chrome
   * Spotify
