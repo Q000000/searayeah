@@ -44,24 +44,25 @@
 * Configure [Git](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 * Configure Dolphin
 * Configure Spectacle
+* Configure Desktop
 * Software list
-  * onlyoffice
-  * [arc-kde](https://github.com/PapirusDevelopmentTeam/arc-kde)
-  * [papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+  * Onlyoffice
+  * VLC
+  * CMake
+  * [arc-kde-git](https://github.com/PapirusDevelopmentTeam/arc-kde)
+  * [papirus-icon-theme-git](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
   * Inkscape
   * Discord
-  * Jetbrains Toolbox
   * Kolourpaint
   * Teamviewer
   * Zoom
   * [Sublime Text](https://github.com/searayeah/searayeah/tree/main/SystemsSetup/SublimeSetup)
   * Firefox
-  * Chrome
   * Spotify
   * ttf-ms-fonts
   * Thunderbird
   * Gnome boxes
-  * Telegram
+  * Telegram Desktop
   * Vk messsenger
   * OBS
 * Configure autostart
