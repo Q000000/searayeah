@@ -66,7 +66,6 @@
     * Turn off gamebar
     * Turn off broadcasting and captures as much as possible
   * Ease of access
-    * In display turn off windows animations and turn desktop background image
     * Turn off touch feedback in mouse pointer
     * Don't allow narrator to start by keybind
     * Turn off sticky keys on keyboard
