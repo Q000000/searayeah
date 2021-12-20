@@ -7,7 +7,8 @@
 * Enable names and extensions in Explorer
 * Delete not used temp folders' contents
 * Turn off defender in settings
-* Install browser
+* Install Firefox
+* Configure Firefox
 * Install [Win-rar](https://www.rarlab.com/)
 * [Activate system](https://github.com/massgravel/Microsoft-Activation-Scripts)
 * Install [MS C++ distributives](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
