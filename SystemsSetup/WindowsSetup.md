@@ -92,7 +92,6 @@
   ```bash
   C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
   ```
-* Set up Firefox
 * Add music to music folder
 * Install [tablet driver](https://github.com/OpenTabletDriver/OpenTabletDriver)
   ```bash
