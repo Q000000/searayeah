@@ -58,7 +58,7 @@
   * Zoom
   * [Sublime Text](https://github.com/searayeah/searayeah/tree/main/SystemsSetup/SublimeSetup)
   * Firefox
-  * Spotify
+  * [Spotify](https://wiki.manjaro.org/index.php/Spotify#PGP_signatures_could_not_be_verified)
   * ttf-ms-fonts
   * Thunderbird
   * Gnome boxes
