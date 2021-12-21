@@ -65,6 +65,7 @@
   * Telegram Desktop
   * Vk messsenger
   * OBS
+  * qBittorrent
 * Configure autostart
 ![image](https://user-images.githubusercontent.com/57370975/135800713-0e81e4ec-d422-4f4f-83ef-895567dc62a6.png)
 
