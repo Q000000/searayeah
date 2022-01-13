@@ -14,6 +14,7 @@
 * Install [MS C++ distributives](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 * Settings:
   * System
+    * Disable Fix scaling for apps 
     * Sound settings(do nothing on call)
     * Turn off notifications
     * Turn off focus assist for all apps and times
