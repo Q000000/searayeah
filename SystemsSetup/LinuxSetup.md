@@ -29,6 +29,7 @@
   * Notifications
   * Regional Settings
     * Date & Time
+  * Accessibility -> Disable Audible Bell
   * KDE Wallet -> Disable
   * Input Devices
     * Keyboard -> Layouts -> Switching bind
