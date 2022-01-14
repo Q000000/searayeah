@@ -98,11 +98,12 @@
 * Install [.NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime)
 * Install [tablet driver](https://github.com/OpenTabletDriver/OpenTabletDriver)
   ```bash
-  Display 1400x1050
+  Display 1400x1080
   X, Y 960, 540
-  Width, Height 50, 37.5
-  Filters off
+  Width, Height 45, 33.75
   ```
+  ![image](https://user-images.githubusercontent.com/57370975/149550891-54b3b5a6-e3eb-46ae-9742-4cdd168dfa22.png)
+
 
 Result
 ![image](https://user-images.githubusercontent.com/57370975/146675412-af9a772e-3049-4a5f-970a-2e3192433c77.png)
