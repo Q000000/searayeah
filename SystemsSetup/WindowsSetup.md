@@ -95,7 +95,7 @@
   C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
   ```
 * Add music to music folder
-* Install [.NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime)
+* Install [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime)
 * Install [tablet driver](https://github.com/OpenTabletDriver/OpenTabletDriver)
   ```bash
   Display 1400x1080
