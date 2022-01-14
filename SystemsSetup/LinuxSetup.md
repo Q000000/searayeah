@@ -1,9 +1,9 @@
 # Linux install process.
 * Download Manjaro LTS w/o pre-installed software
 * Set English language and locale
-* Enable AUR and its updates
 * Install alongside
 * Change store region mirrors to Russia
+* Enable AUR and its updates
 * Update Kernel(5.14)
 * Install Nvidia drivers(Auto-install proprietary)
 * Set up Firefox
