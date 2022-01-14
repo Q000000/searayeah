@@ -56,6 +56,7 @@
     * Set up task bar
   * Apps
     * Delete dolby atmos
+    * Delete Realtek shit
     * Turn off map updates
     * Turn off windows security icon on startup
     * Turn off Realtek on startup
@@ -94,7 +95,7 @@
   C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
   ```
 * Add music to music folder
-* Instan [.NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime)
+* Install [.NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime)
 * Install [tablet driver](https://github.com/OpenTabletDriver/OpenTabletDriver)
   ```bash
   Display 1400x1050
