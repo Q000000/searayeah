@@ -98,7 +98,7 @@
 * Install [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime)
 * Install [tablet driver](https://github.com/OpenTabletDriver/OpenTabletDriver)
   ```bash
-  Display 1400x1080
+  Display 1440x1080
   X, Y 960, 540
   Width, Height 45, 33.75
   ```
